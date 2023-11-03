@@ -30,3 +30,7 @@
 .divone{
   background-color: blue;
 }
+#nyt_video_player{
+  width:480; 
+  height:321; 
+}

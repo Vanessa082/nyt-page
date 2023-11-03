@@ -1,0 +1,32 @@
+
+.liv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: solid;
+  border-top: 0.1rem solid #000;
+  border-bottom: 0.1rem solid #d3d3d3;
+  margin-top: .1rem;
+}
+
+#live-indicator {
+  color: #990f2b;
+}
+#hrs{
+  padding-left: 1rem;
+  color: #808080;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+ .main-one{
+  background-color: #990f2b;
+ } 
+.divone{
+  background-color: blue;
+}

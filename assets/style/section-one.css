@@ -45,48 +45,29 @@ a {
 }
 
 .main-one {
-  /* background-color: yellow;
-    display: flex;
-    align-items: center;i
-    justify-content: space-between;
-    flex-direction: row;
-     width: 100%; */
   display: grid;
   grid-template-columns: 70% auto;
   grid-template-rows: 100%;
   height: 345vh;
-  /* border-bottom: 1px solid #d3d3d3; */
 }
 
 .divone {
-  /* background-color: aqua; */
-  /* grid-column: 1 / 2; */
-  /* display: grid; */
   margin: 1rem;
 }
 
 .divone1 {
-  /* background-color: blue; */
   display: grid;
   grid-template-columns: 30% auto;
   height: 70vh;
   border-bottom: 1px solid #d3d3d3;
-  /* grid-template-columns:30% auto ; */
-  /* display: flex; 
-     align-items: center;
-     justify-content: space-between;
-     flex-direction: column;
-     width: 70%;*/
 }
 
 .divone11 {
-  /* background-color: #990f2b; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   width: 20vw;
   height: 65vh;
   margin: 0.5rem;
-
 }
 
 .divone11-one {
@@ -96,12 +77,6 @@ a {
 .divone11-two {
   border-bottom: 1px solid #d3d3d3;
 }
-
-/* .divone11-img {
-    /* width: 20vw; */
-/* height: 65vh; 
-  
-  } */
 
 .divone11-img figure img {
   height: 60vh;
@@ -120,13 +95,11 @@ a {
   display: grid;
   grid-template-rows: 1fr 1fr;
   height: 50vh;
-  /* background-color: blueviolet;  */
   margin: 0.3rem;
   border-bottom: 1px solid #808080;
 }
 
 .divone2-one {
-  /* background-color: #808080; */
   display: grid;
   grid-template-columns: 47% 5% auto;
   height: 20vh;
@@ -135,11 +108,9 @@ a {
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #808080;
-
 }
 
 .divone2-one11 {
-  /* border-right: 1px solid #d3d3d3 ; */
   margin: 0.2rem;
 }
 
@@ -147,7 +118,7 @@ a {
   margin: 0.2rem;
 }
 
-.bot_sec {
+.bot-sec {
   display: grid;
   grid-template-columns: 47% auto auto;
   width: 100%;
@@ -155,7 +126,7 @@ a {
   padding: 0.5rem;
 }
 
-.bot_sec_inner {
+.bot-sec-inner {
   display: grid;
   grid-template-columns: auto auto;
   width: 96vw;
@@ -163,18 +134,18 @@ a {
   gap: 0.3rem;
 }
 
-.bot_sec_text {
+.bot-sec-text {
   margin: 0.5rem;
 }
 
-.bot_sec_inner img {
+.bot-sec-inner img {
   width: 100%;
   border: none;
   border-radius: 0.2rem;
   margin: 0.3rem;
 }
 
-.sep_sec {
+.sep-sec {
   width: 1px;
   height: 89%;
   color: #808080;
@@ -183,7 +154,6 @@ a {
 }
 
 .divone3 {
-  /* background-color: #990f2b;  */
   display: grid;
   grid-template-columns: 40% auto;
   height: 50vh;
@@ -199,19 +169,16 @@ a {
 }
 
 .divone3-img figure img {
-  /* width: 38vw; */
   height: 46vh;
   margin: 1rem;
   border-radius: 0.1rem;
 }
 
 .divone4 {
-  /* background-color: #990f2b;   */
   display: grid;
   grid-template-columns: 40% auto;
   height: 50vh;
   border-top: 1px solid #808080;
-  /* border-bottom: 1px solid #808080; */
   margin: 0.5rem;
   padding: 0.2rem;
 }
@@ -220,29 +187,13 @@ a {
   margin: 0.7rem;
 }
 
-/* .divone2-tw0 {
-    background-color: yellow;
-    height: 15vh;
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 100;
-  }
-  .divone2-img{
-    height: 4vh;
-    width: 3vw;
-  }
-  .divone2-p{
-    height: 4vh;
-  }
-  */
+
 .divtwo {
-  /* background-color: purple; */
   border-left: 1px solid #808080;
   padding: 1rem;
 }
 
 .divtwo1 {
-  /* background-color: #990f2b; */
   display: grid;
   grid-template-rows: auto auto;
   height: 45vh;
@@ -257,24 +208,15 @@ a {
 .divtwo1-img figure img {
   width: 25vw;
   height: 27vh;
-  /* border-radius: 0.8rem; */
 }
 
 .divtwo2 {
   border-top: 1px solid #808080;
-  /* background-color: aquamarine;   */
   display: grid;
   grid-template-columns: 60% auto;
   height: 18vh;
-  /* margin: 0.8rem; */
-  /* padding: 0.8rem; */
-  /* padding: 1rem; */
 }
 
-/*.divtwo2{
-    width: 4vw;
-    height: 6vh;
-   } */
 .divtwo2-img figure img {
   width: 4vw;
   height: 6vh;
@@ -284,24 +226,17 @@ a {
 
 .divtwo3 {
   border-top: 1px solid #808080;
-  /* background-color: rgb(22, 234, 18);  */
   display: grid;
   grid-template-columns: 60% auto;
   height: 19vh;
-  /* margin: 0.99rem; */
-  /* margin: 2rem; */
-  /* padding: 1rem; */
-  /* padding: 1rem; */
 }
 
 .divtwo3-one {
   margin: 0.5rem;
-  /* background-color: #990f2b; */
 }
 
 .divtwo6 {
   border-top: 1px solid #808080;
-  /* background-color: rgb(29, 18, 234); */
   display: grid;
   grid-template-rows: auto auto;
   height: 45vh;
@@ -320,7 +255,6 @@ a {
 }
 
 .divtwo8 {
-  /* background-color: yellow; */
   border-top: 1px solid #808080;
   display: grid;
   grid-template-columns: auto auto;

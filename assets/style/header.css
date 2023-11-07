@@ -20,7 +20,6 @@ main {
 }
 
 header {
-  /* background-color: #2d2d2d; */
   margin-top: 2rem;
 }
 
@@ -37,9 +36,7 @@ header {
   justify-content: space-between;
   font-weight: 900;
   size: 30vw;
-  /*padding: 0 12px;*/
   width: 3vw;
-  /* background-color: antiquewhite;*/
 }
 
 .header-ulli {
@@ -48,7 +45,6 @@ header {
   align-items: center;
   margin-right: -17rem;
   width: 30vw;
-  /*background-color: rgb(191, 108, 108);*/
 }
 
 li {
@@ -62,12 +58,9 @@ ul {
   list-style-type: none;
 }
 
-
 .header-button {
   display: flex;
   justify-content: space-between;
-  /*padding: 0 14px;*/
-  /*background-color: #386385;*/
   width: 23vw;
 }
 
@@ -126,7 +119,6 @@ ul {
 }
 
 .header-three {
-  /* background-color: #e81b1b; */
   color: #333;
   text-decoration: none;
   display: flex;
@@ -142,7 +134,6 @@ ul {
 }
 
 .first-nav {
-  /* background-color: #386385; */
   display: flex;
   justify-content: flex-end;
   gap: 0.8vw;

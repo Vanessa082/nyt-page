@@ -13,17 +13,6 @@
 
 .one {
   border-right: 1px solid #d3d3d3;
-
-}
-
-.one figure img {
-  width: 15vw;
-  padding: 0.5rem;
-}
-
-.oner figure img {
-  width: 17vw;
-  padding: 0.4rem;
 }
 
 figcaption {
@@ -84,14 +73,6 @@ figcaption {
   margin: 0.5rem;
 }
 
-.foumain11-img {
-  margin: 1rem;
-}
-
-.foumain11-img figure img {
-  width: 39vw;
-}
-
 h6 {
   font-size: 0.8rem;
   margin: 0.5rem;
@@ -115,14 +96,6 @@ h6 {
 
 .want {
   margin: 0.9rem 0.5rem 0;
-}
-
-.wantimg {
-  margin: 1rem;
-}
-
-.wantimg figure img {
-  height: 15vh;
 }
 
 .fone {
@@ -180,14 +153,6 @@ h6 {
   padding: 0.8rem;
 }
 
-.onesimg {
-  padding: 0.7rem;
-}
-
-.onesimg figure img {
-  width: 20vw;
-}
-
 .tee {
   border-left: 1px solid #d3d3d3;
   display: grid;
@@ -230,16 +195,6 @@ h6 {
 
 }
 
-.onep figure img {
-  height: 25vh;
-  margin: 0.5rem;
-}
-
-.onepr figure img {
-  height: 25vh;
-  margin: 0.4rem;
-}
-
 .sevmain {
   width: 100%;
   margin: 0 auto;
@@ -267,10 +222,6 @@ h6 {
 
 .semtextt {
   padding: 1rem;
-}
-
-.semimage figure img {
-  height: 58vh;
 }
 
 .eimain {
@@ -301,11 +252,6 @@ h6 {
   margin: 0.5rem;
 }
 
-.eimaintexxi figure img {
-  height: 16vh;
-  margin: 1rem;
-}
-
 .eimaintexx2 {
   border-left: 1px solid #d3d3d3;
   display: grid;
@@ -313,11 +259,6 @@ h6 {
 }
 
 .eimaintexe {
-  margin: 1rem;
-}
-
-.eimaintexxi figure img {
-  height: 16vh;
   margin: 1rem;
 }
 
@@ -330,10 +271,6 @@ h6 {
   flex-direction: row;
 }
 
-.eimaintexxi3 figure img {
-  width: 7vw;
-}
-
 .eimaintexx4 {
   border-left: 1px solid #d3d3d3;
   display: flex;
@@ -342,14 +279,6 @@ h6 {
   flex-flow: row;
   gap: 1rem;
   width: 100%;
-}
-
-.eimaintexxi4 figure img {
-  width: 7vw;
-}
-
-.eimaintexxi5 figure img {
-  width: 7vw;
 }
 
 .everything-article {
@@ -401,4 +330,69 @@ h6 {
 .articles img {
   width: 15vw;
   align-items: center;
+}
+.eimaintexxi figure img {
+  height: 16vh;
+  margin: 1rem;
+}
+.eimaintexxi figure img {
+  height: 16vh;
+  margin: 1rem;
+}
+.eimaintexxi3 figure img {
+  width: 7vw;
+}
+.eimaintexxi4 figure img {
+  width: 7vw;
+}
+
+.eimaintexxi5 figure img {
+  width: 7vw;
+}
+.foumain11-img {
+  margin: 1rem;
+}
+
+.foumain11-img figure img {
+  width: 39vw;
+}
+
+.semimage figure img {
+  height: 58vh;
+}
+
+.onesimg {
+  padding: 0.7rem;
+}
+
+.onesimg figure img {
+  width: 20vw;
+}
+
+.one figure img {
+  width: 15vw;
+  padding: 0.5rem;
+}
+
+.oner figure img {
+  width: 17vw;
+  padding: 0.4rem;
+}
+
+.onep figure img {
+  height: 25vh;
+  margin: 0.5rem;
+}
+
+.onepr figure img {
+  height: 25vh;
+  margin: 0.4rem;
+}
+
+.wantimg figure img {
+  height: 15vh;
+}
+
+.wantimg {
+  margin: 1rem;
 }

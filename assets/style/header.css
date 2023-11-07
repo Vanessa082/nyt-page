@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'EngraversOldEnglishBold';
+  font-family: "EngraversOldEnglishBold";
   src: url('fonts/Engravers\'\ Old\ English\ Bold.otf');
 }
 
@@ -107,7 +107,6 @@ ul {
   color: #2d2d2d;
   text-align: center;
   text-size-adjust: 100%;
-  text-align: center;
   font-family: "EngraversOldEnglishBold";
   letter-spacing: .8px;
   font-size: 50px;
@@ -137,14 +136,13 @@ ul {
   display: flex;
   justify-content: flex-end;
   gap: 0.8vw;
-
 }
 
 .sec-nav {
   display: flex;
   justify-content: flex-start;
   gap: 0.8vw;
-  border-left: 0.1rem#333 solid;
+  border-left: 0.1rem solid #d3d3d3;
 }
 
 #pad {

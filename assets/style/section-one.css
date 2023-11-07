@@ -55,6 +55,41 @@ a {
   margin: 1rem;
 }
 
+.bot-sec {
+  display: grid;
+  grid-template-columns: 47% auto auto;
+  width: 100%;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.bot-sec-inner {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 96vw;
+  max-width: 250px;
+  gap: 0.3rem;
+}
+
+.bot-sec-text {
+  margin: 0.5rem;
+}
+
+.bot-sec-inner img {
+  width: 100%;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 0.3rem;
+}
+
+.sep-sec {
+  width: 1px;
+  height: 89%;
+  color: #808080;
+  background-color: #808080;
+  border: none;
+}
+
 .divone1 {
   display: grid;
   grid-template-columns: 30% auto;
@@ -118,41 +153,6 @@ a {
   margin: 0.2rem;
 }
 
-.bot-sec {
-  display: grid;
-  grid-template-columns: 47% auto auto;
-  width: 100%;
-  gap: 1rem;
-  padding: 0.5rem;
-}
-
-.bot-sec-inner {
-  display: grid;
-  grid-template-columns: auto auto;
-  width: 96vw;
-  max-width: 250px;
-  gap: 0.3rem;
-}
-
-.bot-sec-text {
-  margin: 0.5rem;
-}
-
-.bot-sec-inner img {
-  width: 100%;
-  border: none;
-  border-radius: 0.2rem;
-  margin: 0.3rem;
-}
-
-.sep-sec {
-  width: 1px;
-  height: 89%;
-  color: #808080;
-  background-color: #808080;
-  border: none;
-}
-
 .divone3 {
   display: grid;
   grid-template-columns: 40% auto;
@@ -186,7 +186,6 @@ a {
 .divone4-1 {
   margin: 0.7rem;
 }
-
 
 .divtwo {
   border-left: 1px solid #808080;
@@ -251,7 +250,6 @@ a {
 .divtwo6-img figure img {
   width: 25vw;
   height: 27vh;
-
 }
 
 .divtwo8 {

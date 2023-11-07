@@ -192,7 +192,6 @@ h6 {
 
 .onep {
   border-right: 1px solid #d3d3d3;
-
 }
 
 .sevmain {
@@ -230,7 +229,6 @@ h6 {
   flex-direction: column;
   width: 90vw;
   border-top: 1px solid #000;
-
 }
 
 .eimaintex {
@@ -248,9 +246,9 @@ h6 {
   width: 100%;
 }
 
-.eimaintexe {
+/* .eimaintexe {
   margin: 0.5rem;
-}
+} */
 
 .eimaintexx2 {
   border-left: 1px solid #d3d3d3;
@@ -331,17 +329,21 @@ h6 {
   width: 15vw;
   align-items: center;
 }
+
+/* .eimaintexxi figure img {
+  height: 16vh;
+  margin: 1rem;
+} */
+
 .eimaintexxi figure img {
   height: 16vh;
   margin: 1rem;
 }
-.eimaintexxi figure img {
-  height: 16vh;
-  margin: 1rem;
-}
+
 .eimaintexxi3 figure img {
   width: 7vw;
 }
+
 .eimaintexxi4 figure img {
   width: 7vw;
 }
@@ -349,6 +351,7 @@ h6 {
 .eimaintexxi5 figure img {
   width: 7vw;
 }
+
 .foumain11-img {
   margin: 1rem;
 }

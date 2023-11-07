@@ -1,13 +1,14 @@
 .thimain {
   border-top: 1px solid #000;
   display: grid;
-  height: 45vh;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .thimain-one {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  height: 39vh;
+  width: 100%;
 }
 
 .one {
@@ -16,13 +17,13 @@
 }
 
 .one figure img {
-  height: 21vh;
-  margin: 0.5rem;
+  width: 15vw;
+  padding: 0.5rem;
 }
 
 .oner figure img {
-  height: 21vh;
-  margin: 0.4rem;
+  width: 17vw;
+  padding: 0.4rem;
 }
 
 figcaption {
@@ -32,41 +33,42 @@ figcaption {
 }
 
 #food {
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   font-weight: 550;
   text-align: left;
   margin: 0.5rem;
 }
 
-.ita {
+#ita {
   font-style: italic;
   font-weight: 100;
   font-size: 0.7rem;
 }
 
 .foumain {
-  margin: 1rem;
-  border-top: 1px solid #000;
+  margin: 0 auto;
 }
 
 .foumain1 {
-  margin: 0.5rem;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 70% auto;
-  height: 80vh;
 }
 
 .foumain11 {
   display: grid;
   grid-template-columns: 35% auto;
-  height: 70vh;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .foumain11-t {
   display: grid;
   grid-template-rows: 20% auto auto;
-  height: 100%;
-  }
+  width: 100%;
+  margin: 0 auto;
+}
 
 #cida {
   font-weight: lighter;
@@ -74,7 +76,6 @@ figcaption {
 }
 
 #pcida {
-  padding: 0.2rem;
   font-size: 1rem;
   font-weight: lighter;
 }
@@ -88,7 +89,7 @@ figcaption {
 }
 
 .foumain11-img figure img {
-  height: 57vh;
+  width: 39vw;
 }
 
 h6 {
@@ -110,8 +111,6 @@ h6 {
 .wanted {
   display: grid;
   grid-template-columns: 60% auto;
-  height: 25vh;
-  margin: 0.2rem;
 }
 
 .want {
@@ -138,8 +137,6 @@ h6 {
   border-top: 1px solid #d3d3d3;
   display: grid;
   grid-template-columns: 60% auto;
-  height: 22vh;
-  margin: 0.2rem;
 }
 
 .fimain {
@@ -149,8 +146,6 @@ h6 {
   width: 100%;
   border-bottom: 1px solid #000;
   gap: 0.1rem;
-  height: 80vh;
-
 }
 
 .fivmain {
@@ -164,17 +159,20 @@ h6 {
 .ones {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
   border-right: 1px solid #d3d3d3;
 }
 
 .ones-1 {
   display: grid;
   grid-template-rows: auto auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .oneste {
   font-size: 0.7rem;
-  padding: 1rem;
 }
 
 .onestet {
@@ -187,8 +185,7 @@ h6 {
 }
 
 .onesimg figure img {
-  height: 35vh;
-  padding: 0.7rem;
+  width: 20vw;
 }
 
 .tee {
@@ -212,25 +209,20 @@ h6 {
   grid-template-rows: auto auto auto;
 }
 
-.ditee {
-  border-top: 1px solid #d3d3d3;
-}
-
 .sixmaiin {
-  background-color: aqua;
   border-top: 1px solid #000;
-  margin: 2rem;
-  padding: 30px 0;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
   grid-template-rows: 10% auto;
-  height: 60vh;
 }
-
 
 .sixmain {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  height: 50vh;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .onep {
@@ -239,19 +231,18 @@ h6 {
 }
 
 .onep figure img {
-  height: 27vh;
+  height: 25vh;
   margin: 0.5rem;
 }
 
 .onepr figure img {
-  height: 21vh;
+  height: 25vh;
   margin: 0.4rem;
 }
 
 .sevmain {
-  border-top: 1px solid #000;
-  height: 73vh;
-  margin: 0.8rem;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -275,7 +266,6 @@ h6 {
 }
 
 .semtextt {
-  border-top: 1px solid #d3d3d3;
   padding: 1rem;
 }
 
@@ -341,7 +331,7 @@ h6 {
 }
 
 .eimaintexxi3 figure img {
-  width: 7vw;
+  width: 7vw;/
 }
 
 .eimaintexx4 {

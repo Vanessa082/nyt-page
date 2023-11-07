@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "EngraversOldEnglishBold";
-  src: url('fonts/Engravers\'\ Old\ English\ Bold.otf');
+  font-family: EngraversOldEnglishBold;
+  src: url("fonts/Engravers' Old English Bold.otf");
 }
 
 * {
@@ -48,9 +48,9 @@ header {
 }
 
 li {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   float: left;
-  font-size: 10px;
+  font-size: 0.10px;
   text-align: center;
 }
 
@@ -107,9 +107,7 @@ ul {
   color: #2d2d2d;
   text-align: center;
   text-size-adjust: 100%;
-  font-family: "EngraversOldEnglishBold";
-  letter-spacing: .8px;
-  font-size: 50px;
+  font-family: EngraversOldEnglishBold, cursive;
 }
 
 .greena {

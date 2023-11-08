@@ -1,8 +1,8 @@
 {
-  "eslint.options": {
-    "ignorePatterns": [
-      "!**/*",
-      "!/.vscode/settings.json"
-    ]
-  }
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }

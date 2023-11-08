@@ -38,13 +38,6 @@
   flex-wrap: wrap;
 }
 
-.footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  align-items: baseline;
-}
-
 .footer ul li ul {
   display: flex;
   flex-direction: column;

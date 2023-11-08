@@ -1,5 +1,7 @@
 {
-    "eslint.options": {
-      "ignorePatterns": ["!**/*"]
-    }
+  "eslint.options": {
+    "ignorePatterns": [
+      "!**/*"
+    ]
   }
+}

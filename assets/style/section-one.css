@@ -49,6 +49,7 @@ a {
   grid-template-columns: 70% auto;
   grid-template-rows: 100%;
   height: 345vh;
+  /* background-color: blue; */
 }
 
 .divone {
@@ -188,8 +189,10 @@ a {
 }
 
 .divtwo {
+  /* background-color: #990f2b; */
   border-left: 1px solid #808080;
-  padding: 1rem;
+  /* padding: 1rem; */
+  width: 100vw;
 }
 
 .divtwo1 {
@@ -234,12 +237,17 @@ a {
   margin: 0.5rem;
 }
 
+.divtwo3-one h2 {
+  font-size: 15px;
+}
+
 .divtwo6 {
   border-top: 1px solid #808080;
   display: grid;
   grid-template-rows: auto auto;
   height: 45vh;
   margin: 0.1rem;
+  background-color: aqua;
 }
 
 .divtwo6-img {

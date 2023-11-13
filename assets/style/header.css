@@ -17,14 +17,16 @@ main {
   overflow-x: hidden;
   flex-direction: column;
   width: 100%;
+  /* background-color: blue; */
 }
 
 header {
   margin-top: 2rem;
+  /* background-color: blue; */
 }
 
 .header-one {
-  background-color: #fff;
+  /* background-color: #fff; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -72,6 +74,10 @@ ul {
   border: none;
   border-radius: 2px;
 }
+
+/* 
+row two
+*/
 
 .header-two {
   background-color: #fff;

@@ -6,7 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>nyt</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsBF2BJsn3X3OUf3SoMVq/8s7M/2g4vH2M6lLpo54J4tRwF9+PvLAS1y1c47o8C0q37X+dQrrk+g4s="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/style/header.css">
   <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/style/footer.css">
+  <link rel="stylesheet" href="assets/style/section-one.css">
+  <link rel="stylesheet" href="assets/style/semain.css">
 </head>
 
 <body>
@@ -23,939 +32,1066 @@
             <li>INTERNATIONAL</li>
             <li>CANADA</li>
             <li>ESPANOL</li>
+            <li>中文网</li>
           </ul>
         </div>
         <div class="header-button">
-          <button>Subscribe for &#36;0.25/week </button>
-        </div>
-        <div class="Account">
+          <button id="btn">Subscribe for &#36;0.25/week </button>
           <label for="cars">Account</label>
-          <select name="cars" id="cars">
+          <select name="cars"></select>
         </div>
-        </select>
       </div>
       <div class="header-two">
         <div class="date">
-          <span>Monday, October 30, 2023</span>
-        </div>
-        <div class="toda">
-          <p> Today's Paper</p>
+          <span id="date">Monday, October 30, 2023</span>
+          <p id="paragraph"> Today's Paper</p>
         </div>
         <div class="hone">
-          <h1> <a href="">The New York Times</a></h1>
+          <h1 class="title"> The New York Times</h1>
+        </div>
+        <div class="greena">
+          <span id="green">S&P 500
+            +1.05%</span>
         </div>
       </div>
       <div class="header-three">
-        <label for="cars">US</label>
-        <select name="cars" id="cars">>
-        </select>
-        <label for="cars">World</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">Business</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">Art</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">Lifestyle</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">Opinion</label>
-        <select name="cars" id="cars">
-        </select>
-
-        <label for="cars">Audio</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">Games</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">cooking</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">Wirecutter</label>
-        <select name="cars" id="cars">
-        </select>
-        <label for="cars">The athlectic</label>
-        <select name="cars" id="cars">
-        </select>
+        <div class="first-nav">
+          <div class="co"><a href="#">US <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </a></div>
+          <a href="#">World <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="3">Business <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="#">Arts <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="#">Lifestyle <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="">Opinion <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+        </div>
+        <div class="sec-nav">
+          <a href="#" id="pad">Audio <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="#">Games <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="#">Cooking <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="#">Wirecutter <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+          <a href="#">The Athletic<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
   </header>
   <main>
-    <section class="mainn">
-      <div class="main-one">
-        <div class="liv">
-          <p>
-            <span id="live-indicator">Live</span><span>2h ago</span>
-          </p>
-        </div>
-        <div class="main-one-one">
-          <h2>Israel-Hamas War <br>Israel Will Press On in Gaza, Netanyahu Says, as Troops Advance </h2>
-          <p>In a news conference, Israel's prime minister said that “calls for a cease-fire are calls for
-            Israel
-            to
-            surrender to Hamas.” He asked nations to back Israel in its fight. <a href="">see more</a></p>
-        </div>
-        <div class="main-one-two">
-          <iframe
-            src="https://www.nytimes.com/video/world/middleeast/100000009149198/gaza-children-war-israel.html?action=click&gtype=vhs&version=vhs-heading&module=vhs&region=title-area&cview=true&t=1"
-            frameborder="0"></iframe>
-        </div>
-        <div class="main-one-three">
-          <h2>A Very Slow Game: Why the Pace of Israel's Ground Operation Counts.</h2>
-          <p>Israel's invasion of Gaza is proceeding more slowly than expected. That may suit the needs of its
-            allies
-            —
-            and its adversaries, analysts say <a href="">see more</a></p>
-        </div>
-        <div class="main-one-four">
-          <div class="main-one-four-one">
-            <h2>Isreals military appears to be approaching gaza city </h2>
+    <div class="liv">
+      <p>
+        <span id="live-indicator">LIVE</span><span id="hrs">2hrs ago</span>
+      </p>
+    </div>
+    <section class="main-one">
+      <div class="divone">
+        <div class="divone1">
+          <div class="divone11">
+            <div class="divone11-one">
+              <h2>Sam Bankman-Fried Is Found Guilty of 7 Counts of Fraud and Conspiracy</h2>
+              <p>The FFt founder was found guilty of seven fraud and conspiracy charges in the schemes that cost
+                customers billions. He could be sentenced 10 years in prison <a href="#">6 MIN READ</a> </p>
+            </div>
+            <div class="divone11-two">
+              <span id="an">Analysis</span>
+              <h2>A wild rise and an abrupt cash</h2>
+              <p>Sam Barkiman-Fred gambled that his platform will make him a benevolent trillionaire. But after all
+                fraud conviction, all bets are off. <a href="#">6 MIN READ</a></p>
+            </div>
+            <div class="divone11-three">
+              <h2>People in tech are not outwardly obessed with the trial. The barely mustared a shrug <a href="#">5 MIN
+                  READ</a></h2>
+            </div>
+          </div>
+          <div class="divone11-img">
             <figure>
-              <img src="assets/images/nyt (15).jpg" alt="gaza map">
-              <figcaption>The New york Times</figcaption>
+              <img src="assets/images/fred.webp" alt="">
             </figure>
           </div>
-          <div>
-            <h2>
-              Years of Isrealites failure on Hamas led to devastating October 7 attack <a href="">11 MIN
-                READ</a>
-            </h2>
+        </div>
+        <div class="listh">
+          <h2>Isreal-Hamas War</h2>
+          <ul>
+            <li>Updates</li>
+            <li>What we know</li>
+            <li>Maps</li>
+            <li>Photos</li>
+            <li>Isreals ground operation</li>
+            <li>Jabiliya Airstrike</li>
+            <li>Hamas Hostage</li>
+          </ul>
+        </div>
+        <div class="divone2">
+          <div class="divone2-one">
+            <div class="divone2-one11">
+              <h2>House passes aid bill for ISREAL not for Ukraine</h2>
+              <p>The republican led house approved trillions for Isreal Hamas led war <a href="#">8 MIN READ</a></p>
+            </div>
+            <hr class="sep-sec">
+            <div class="divone2-one12">
+              <h2>Secretary of state approves the pushing if prime minister Antony Benjamin <a href="#">seemore </a>
+              </h2>
+            </div>
+          </div>
+          <div class="bot-sec">
+            <div class="bot-sec-inner">
+              <img src="assets/images/-israel-gaza-.webp" alt="Isreal gaza">
+              <div class="bot-sec-text">
+                <h2>Isrealte ground troop shows up in gaza city,saterlite imagery shows</h2>
+              </div>
+            </div>
+            <hr class="sep-ec">
+            <div class="bot-sec-inner">
+              <img src="assets/images/interpreter-law.webp" alt="Isreal gaza">
+              <div class="bot-sec-text">
+                <h2>The law has limits. What does that mean for the Isrealite Hamas?</h2>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="slideshow">
-          <div>
-            <img src="assets/images/nyt (21).jpg" alt="middle east">
-            <h2> A wr in the middle east could causw fuel prices to deviate <a href="">2 min read</a></h2>
+        <div class="listh">
+          <h2>Trump Fruad in N.Y</h2>
+          <ul>
+            <li>what we know</li>
+            <li>Who is jude Engron?</li>
+            <li>Trumps Vulnarable properties</li>
+          </ul>
+        </div>
+        <div class="divone3">
+          <div class="divone3-1">
+            <h2>Trumps sons cast the blame for Fruad on their companies accountant</h2>
+            <p>Donald Trump jr and his brother cast he blame of their family business overluating their asssets <a
+                href="#">8 MIN READ</a> </p>
           </div>
-          <div>
-            <img src="assets/images/nyt (22).jpg" alt="">
-            <h2>A mop in southern Rusia stormed an airport tarmac looking for plane <a href="">2 min
-                read</a>
-            </h2>
+          <div class="divone3-img">
+            <figure>
+              <img src="assets/images/02trump-tria.webp" alt="trumps trial">
+            </figure>
           </div>
         </div>
-        <div class="main-one-five">
-          <h2>Autoworkers get new win from a contract wit carmworkers</h2>
-          <p>Tentative accords at ford motors, general motors are the most stellant <a href="">4 MIN READ</a>
-          </p>
-          <img src="assets/images/uaw.webp" alt="">
-        </div>
-        <div class="main-one-six">
-          <div class="main-one-six-one">
-            <h2> How Trump verbal slips could weaken his attack on Bidens age </h2>
-            <p>Donald Trump relently attacks president Biden 80, being too old for office <a href="">5 min
-                read</a></p>
+        <div class="divone4">
+          <div class="divone4-1">
+            <h2>U.S investigating whether Adams recieved illegal donation from Turkey</h2>
+            <p>Donald Trump jr and his brother cast he blame of their family business overluating their asssets <a
+                href="#">8 MIN READ</a> </p>
           </div>
-          <div>
-            <h2>Donald Trump is still far away in a new lowa pull with Nki Haley <a href="">1 MIN READ</a>
-            </h2>
-          </div>
-          <div>
-            <h2>A clorado trial is considering whether the 14th ammendment dis qualifies Donald Trump</h2>
+          <div class="divone3-img">
+            <figure>
+              <img src="assets/images/adams.webp" alt="adams">
+            </figure>
           </div>
         </div>
-        <div>
-          <div>
-            <h2>Prosecutors turn fallen crypto Mugols word against him in Federal court of trial</h2>
-            <p>Sam Bakman-Fred facing questions from federal court who have accused him of turning svheme
-              taking
-              more than <a href="">see mre updates</a></p>
-            <img src="assets/images/nyt (11).jpg" alt="Sam Bakman-Fred and officers">
+        <div class="divone4">
+          <div class="divone4-1">
+            <h2>War has not stopped the kjv biennial it has multiplied it</h2>
+            <p>Donald Trump jr and his brother cast he blame of their family business overluating their asssets <a
+                href="#">8 MIN READ</a> </p>
           </div>
-          <div>
-            <h2>Google CEO says teh giants has improved the web for all consumers</h2>
-            <p>Sundar Pichai, the chief executive of web appeared in court to defend his company agains a
-              landmark antitrust</p>
+          <div class="divone3-img">
+            <figure>
+              <img src="assets/images/02kyiv-biennial-l.webp" alt="biennial">
+            </figure>
           </div>
         </div>
-        <div class="main-one-seven">
-          <div class="main-one-seven-one">
-            <h2>An extremely detialed map of New York city Nieghborhood</h2>
-            <p>More than 37000 peoople told us where their Nieghborhood starts and end and we mapped </p>
-          </div>
-          <div class="main-one-seven-two">
-            <h2>Here is a detailed guide from what we learned on the map</h2>
-          </div>
-          <div class="main-one-seven-image">
-            <img src="assets/images/nyt (3).png" alt="">
-          </div>
-        </div>
-        <div class="main-one-eight">
+        <div class="divone4">
           <div>
-            <h2>Both sides pay a bloody price for coveted Ukrainian city </h2>
-            <p>The fight for the batterd city of avdivka has emerged as the fiercest baattle of the world
-            </p>
+            <h2>Senators plot to unblock military promotion as Turberville angers G.O.P</h2>
+            <p>Donald Trump jr and his brother cast he blame of their family business overluating their asssets <a
+                href="#">8 MIN READ</a> </p>
           </div>
-          <div>
-            <img src="assets/images/nyt (25).jpg" alt="">
-          </div>
-        </div>
-        <div class="main-one-nine">
-          <a href="">The great read</a>
-          <h2>Despirately seeking Da Silvano</h2>
-          <p>For decades Silvano Marchettors have been serving Greenwitch village trattoria was a celebrity serving
-            JayZ, Brit and Beyonce suddenly vanished
-            <a href="">8 MIN READ</a>
-          </p>
-          <img src="assets/images/nyt (32).jpg" alt="">
-        </div>
-        <div>
-          <div class="main-one-nine">
-            <h2>Matthew Perry make it look easy</h2>
-            <p>Even as he struggled out addictions the actor stood out of his talented friends, coworkers, our cuter
-              reporter writes in appraisal</p>
-          </div>
-          <div>
-            <h2>The day after the actors death, fans paid a tribuite at a storefront re-creation of famous sets from
-              friends <a href="">4 MIN READ</a></h2>
-          </div>
-        </div>
-        <div class="main-one-ten">
-          <div>
-            <h2>Energy dept pours billions into power Grids but warm its not enough</h2>
-            <p>Americas electric might need to expand by two third by 2035 <a href="">4 MIN READ</a></p>
-          </div>
-          <div>
-            <h1>limiting global warming by 1.5 billions will be harder than ever new calculation shows </h1>
-          </div>
-          <div>
-            <img src="assets/images/Capture.PNG" alt="Grids">
-          </div>
-        </div>
-        <div>
-          <h2>How lucrative sugery took place online and disfigured patients</h2>
-          <p> More surgoens are requsting for a compliated hernia repair that the learned online</p>
-          <img src="assets/images/Capture2.PNG" alt="woman sitted on the bed ">
-        </div>
-        <div>
-          <h2>Sigrid Nomez art of noticing</h2>
-          <p>The national book award winer smuggles profound reflection on pain and loss into novels <a href="">15 MIN
-              READ</a></p>
-          <div>
-            <img src="assets/images/nyt (79).jpg" alt="">
+          <div class="divone3-img">
+            <figure>
+              <img src="assets/images/02dc-tuberville.webp" alt="Turberville SENATORS VISITING">
+            </figure>
           </div>
         </div>
       </div>
-      <div class="main-two">
-        <div class="main-two-one">
-          <div>
-            <img src="assets/images/nyt (43).jpg" alt="white woman">
+      <div class="divtwo">
+        <div class="divtwo1">
+          <div class="divtwo1-one">
+            <h2>Opinion</h2>
+            <a href="#">DAVID BROOKS</a>
+            <h2>How to sane in brutalizing times <a href="#">8 MIN READ</a></h2>
           </div>
-          <div>
-            <h2>Writing Maid Pulled Stephanie Land Out of Poverty.</h2>
-            <p>Shes Fine Now, Right?
-              Despite writing a best seller that became a hit Netflix series, Ms. Land says she still worries about
-              her job security. <a href="">5 MIN READ</a></p>
-          </div>
-        </div>
-        <div class="main-two-two">
-          <div>
-            <img src="assets/images/nyt (16).jpg" alt="Wap">
-            <h2>Tiny beautiful little wap eat hearts out of cockroaches <a href="">5 MIN READ</a></h2>
-          </div>
-          <div>
-            <img src="assets/images/nyt (13).jpg" alt="">
-            <h2>For 25 years American culture has used Britney Spears body to etermine a womans worth <a href="">5 MIN
-                READ</a> </h2>
+          <div class="divtwo1-img">
+            <figure>
+              <img src="assets/images/shadow.webp" alt="couples in sane times">
+            </figure>
           </div>
         </div>
-        <div class="main-two-three">
-          <h6>Opinion</h6>
-          <a href="">Thomas Fredman</a>
-          <h2>The Isreal I speak Tell me The know Two things for sure <a href="">7 MIN READ</a></h2>
-          <div class="main-two-two-img">
-            <img src="assets/images/nyt (2).png" alt="Thomas">
+        <div class="divtwo2">
+          <div class="divtwo3-one">
+            <a href="#">PAUL KRUGMAN</a>
+            <h2>Isreal, the I.R.S and the Big Grift</h2>
+            <a href="#">4 MIN READ</a>
+          </div>
+          <div class="divtwo2-img">
+            <figure>
+              <img src="assets/images/paul.webp" alt="Paul krugman">
+            </figure>
           </div>
         </div>
-        <div class="main-two-four">
-          <a href="">IRIS ZAKRI, TAMR ELTERMAN</a>
-          <h2>I do not have the empathy in me again isrealite survivor</h2>
-          <img src="assets/images/nyt (12).jpg" alt="">
-        </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
-          <img src="assets/images/nyt (27).jpg" alt="paul">
-        </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
-        </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
-          <img src="assets/images/nyt (27).jpg" alt="paul">
-        </div>
-        <div>
-          <a href="">DANIELA J LAMAS</a>
-          <h2>Brutal Disease May soon be transformed <a href="">9 MIN READ</a></h2>
-          <img src="assets/images/nyt (9).jpg" alt="man in the forest">
-        </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
-        </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
-        </div>
-        <div class="slide2">
-          <div class="main-two-five">
-            <a href="">PAUL KRUGMAN</a>
-            <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
+        <div class="divtwo3">
+          <div class="divtwo3-one">
+            <a href="#">THOMAS FRIEDMAN</a>
+            <h2>The two things worrying US military officials About Isreal and Hamas</h2>
+            <a href="#">6 MIN READ</a>
           </div>
-          <div class="main-two-five">
-            <a href="">PAUL KRUGMAN</a>
-            <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
+          <div class="divtwo2-img">
+            <figure>
+              <img src="assets/images/thomas.webp" alt="Thomas Friedman">
+            </figure>
           </div>
         </div>
-        <div class="main-two-six">
-          <div>
-            <a href="">DANIELA J LAMAS</a>
-            <h2>Brutal Disease May soon be transformed <a href="">9 MIN READ</a></h2>
-            <img src="assets/images/nyt (9).jpg" alt="man in the forest">
+        <div class="divtwo3">
+          <div class="divtwo3-one">
+            <a href="#">PAMELA PAUL </a>
+            <h2>Something deeply troubling has happened to the party of the people</h2>
+            <a href="#">4 MIN READ</a>
           </div>
-          <div>
-            <a href="">DANIELA J LAMAS</a>
-            <h2>Brutal Disease May soon be transformed <a href="">9 MIN READ</a></h2>
-            <img src="assets/images/nyt (9).jpg" alt="man in the forest">
+          <div class="divtwo2-img">
+            <figure>
+              <img src="assets/images/pamela-paul.webp" alt="Pamela Paul">
+            </figure>
           </div>
-          <div class="main-two-seven">
-            <div>
-              <a href="">DANIELA J LAMAS</a>
-              <h2>Brutal Disease May soon be transformed <a href="">9 MIN READ</a></h2>
-              <img src="assets/images/nyt (9).jpg" alt="man in the forest">
-            </div>
-            <div>
-              <a href="">DANIELA J LAMAS</a>
-              <h2>Brutal Disease May soon be transformed <a href="">9 MIN READ</a></h2>
-              <img src="assets/images/nyt (9).jpg" alt="man in the forest">
-            </div>
-            <div>
-              <a href="">DANIELA J LAMAS</a>
-              <h2>Brutal Disease May soon be transformed <a href="">9 MIN READ</a></h2>
-              <img src="assets/images/nyt (9).jpg" alt="man in the forest">
-            </div>
+        </div>
+        <div class="divtwo3">
+          <div class="divtwo3-one">
+            <a href="#">DAVID FRENCH</a>
+            <h2>The Law of campus culture war</h2>
+            <a href="#">9 MIN READ</a>
+          </div>
+          <div class="divtwo2-img">
+            <figure>
+              <img src="assets/images/david-french.webp" alt="david-french">
+            </figure>
+          </div>
+        </div>
+        <div class="divtwo6">
+          <div class="divtwo3-one">
+            <a href="#">JEFF TWEEDDY</a>
+            <h2>JEFF TWEEDDY: I thought I hated pop music 'Dancing Queen' Changed my mind.</h2>
+            <a href="#">6 MIN READ</a>
+          </div>
+          <div class="divtwo1-img">
+            <figure>
+              <img src="assets/images/tweedy.webp" alt="Dance tweedy">
+            </figure>
+          </div>
+        </div>
+        <div class="divtwo3">
+          <div class="divtwo3-one">
+            <a href="#">JOHN WHORTER</a>
+            <h2>The Trap of the overprotected childhood</h2>
+            <a href="#">9 MIN READ</a>
+          </div>
+          <div class="divtwo2-img">
+            <figure>
+              <img src="assets/images/author-john.webp" alt="author-john">
+            </figure>
+          </div>
+        </div>
+        <div class="divtwo8">
+          <div class="divtwo3-one">
+            <a href="#">MICHEAL SFWARD</a>
+            <h2>Isreal is silencing internal critics <a href="#">6 MIN READ</a></h2>
+          </div>
+          <div class="divtwo8-one">
+            <a href="#">LETTERS FROM OUR READERS</a>
+            <h2>Learning to become open hearted <a href="#">8 MIN READ</a></h2>
+          </div>
+        </div>
+        <div class="divtwo6">
+          <div class="divtwo3-one">
+            <h2>Recycled Kitchen Gadgets</h2>
+            <a href="#">6 MINS READ</a>
+          </div>
+          <div class="divtwo1-img">
+            <figure>
+              <img src="assets/images/culinary-arts-gadgets.webp" alt="Dance tweedy">
+            </figure>
           </div>
         </div>
       </div>
     </section>
     <section class="semain">
-      <div>
-        <div>
-          <h6>News</h6>
+      <div class="semain-one">
+        <h6>News</h6>
+        <div class="semain-one1">
           <h2>The latest target for carlifornia conservatives? School boards</h2>
           <p>Perantal opositions when childeren seek to change their gender <a href="">3 MIN READ</a></p>
         </div>
-        <div>
+        <div class="semain-onee">
           <h2>The Apple-Picking Apocalypse of Upstate New York</h2>
-          <p>Eight straight weekends of rain have pushed the pick-your-own orchards toward financial disaster. <a
-              href="">5 MIN READ</a> </p>
+          <p>Eight straight weekends of rain have pushed the pick-your-own orchards toward financial disaster.
+            <a href="">5 MIN READ</a>
+          </p>
         </div>
-        <div>
+        <div class="semain-onee">
           <h2>Saudi Arabia Is Set to Be Sole Bidder for 2034 World Cup</h2>
-          <p>Australia announced it would not bid for the mens tournament, clearing the way for the Saudis to bring
+          <p>Australia announced it would not bid for the mens tournament, clearing the way for the Saudis to
+            bring
             soccers biggest championship back to the Gulf <a href="">4 MIN READ</a> </p>
         </div>
       </div>
-      <div>
-        <img src="" alt="">
-        <h2></h2>
-        <p></p>
+      <div class="semain-one-img">
+        <figure>
+          <img src="assets/images/will.webp" alt="will">
+        </figure>
+        <h2>Will Lewis named Ceo</h2>
+        <p>The Washington Post announces William Lewis as its new Publisher and CEO. Lewis will assume the role
+          effective Jan. 2, 2024, succeeding interim CEO Patty Stonesifer who joined The Post in June 2023</p>
       </div>
-      <div>
-        <div class="main-two-five">
+      <div class="semain-two">
+        <div class="semain-one1">
+          <a href="">PAUyrL KRUGMAN</a>
+          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
+        </div>
+        <div class="semain-onee">
+          <a href="">PAneUL KRUGMAN</a>
+          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
+        </div>
+        <div class="semain-onee">
           <a href="">PAUL KRUGMAN</a>
           <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
         </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
+        <div class="semain-onee">
+          <a href="">PAUL </a>
+          <h2>AUTOWORK STRKE A BLOW <a href="">4 MIN READ</a></h2>
         </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
-        </div>
-        <div class="main-two-five">
-          <a href="">PAUL KRUGMAN</a>
-          <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
-        </div>
-        <div class="main-two-five">
+        <div class="semain-one2">
           <a href="">PAUL KRUGMAN</a>
           <h2>AUTOWORKERS STRIKE A BLOW <a href="">4 MIN READ</a></h2>
         </div>
       </div>
     </section>
-    <section class="more-articles">
-      <section class="related">
-        <h6>Well</h6>
-        <div class="related-stories">
-          <div class="story">
-            <img src="assets/images/nyt (11).jpg" alt="">
-            <h2>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></h2>
+    <section class="thimain">
+      <h2>Cooking <span class="ita">Recipes and guides</span></h2>
+      <div class="thimain-one">
+        <div class="one">
+          <figure>
+            <img src="assets/images/LH-vegetable-soup.webp" alt="LH-vegetable-soup">
+            <figcaption>Christopher Testany for the New York Time</figcaption>
+          </figure>
+          <h2 class="food">Vegetable Soups</h2>
+        </div>
+        <div class="one">
+          <figure>
+            <img src="assets/images/RS-Old-Fashioned.webp" alt="RS-Old-Fashioned">
+            <figcaption>Christopher Testany for the New York Time</figcaption>
+          </figure>
+          <h2 class="food">Old Fashioned</h2>
+        </div>
+        <div class="one">
+          <figure>
+            <img src="assets/images/LH-vegetable-soup.webp" alt="LH-vegetable-soup">
+            <figcaption>Christopher Testany for the New York Time</figcaption>
+          </figure>
+          <h2 class="food">Vegetable Soups</h2>
+        </div>
+        <div class="one">
+          <figure>
+            <img src="assets/images/ND-Rice-Pudding-kbft-threeByTwoSmallAt2X.webp" alt="Rice pudding">
+            <figcaption>Christopher Testany for the New York Time</figcaption>
+          </figure>
+          <h2 class="food">Rice pudding</h2>
+        </div>
+        <div class="one">
+          <figure>
+            <img src="assets/images/VC-Sesame-Chicken.webp" alt="Sasem CHICKEN">
+            <figcaption>Christopher Testany for the New York Time</figcaption>
+          </figure>
+          <h2 class="food">Sasem Chicken</h2>
+        </div>
+        <div class="oner">
+          <figure>
+            <img src="assets/images/Butternut squash.webp" alt="Butternut Squash">
+            <figcaption>Christopher Testany for the New York Time</figcaption>
+          </figure>
+          <h2 class="food">Butternut squash Lsanga pie</h2>
+        </div>
+      </div>
+    </section>
+    <section class="foumain">
+      <div class="foumain1">
+        <div class="foumain11">
+          <div class="foumain11-t">
+            <div>
+              <h6>Culture and Lifestyle</h6>
+            </div>
+            <div class="cida">
+              <h2 id="cida">What if Wine and Cida Had Babies ?</h2>
+              <p id="pcida">A geat number of wine producers are fermenting grape and apples and other fruits together or
+                blending them
+                to make wonderful beverages </p>
+            </div>
           </div>
-          <div class="story">
-            <img src="assets/images/nyt (1).webp" alt="">
-            <h2>A Black Hole Threw a Star Out of the Milky Way Galaxy <a href="">4 MIN READ</a></h2>
-          </div>
-          <div class="story">
-            <img src="assets/images/nyt (14).png" alt="">
-            <h2>A Black Hole Threw a Star Out of the Milky Way Galaxy <a href="">4 MIN READ</a></h2>
-          </div>
-          <div class="story">
-            <img src="assets/images/nyt (8).png" alt="">
-            <h2>A Black Hole Threw a Star Out of the Milky Way Galaxy <a href="">4 MIN READ</a></h2>
-          </div>
-          <div class="story">
-            <img src="assets/images/nyt (23).jpg" alt="">
-            <h2>A Black Hole Threw a Star Out of the Milky Way Galaxy <a href="">4 MIN READ</a></h2>
+          <div class="foumain11-img">
+            <figure>
+              <img src="assets/images/wine poured.webp" alt="wine poured">
+              <figcaption>kelly Burges for the new york time</figcaption>
+            </figure>
           </div>
         </div>
-      </section>
-      <section class="culture">
-        <h6>culture and lifestylr</h6>
-        <div>
+        <div class="foumain12">
+          <h6 id="re">Tv Review</h6>
+          <div class="wanted">
+            <div class="want">
+              <h2 class="fone">All the light we can not see the blind girl and the nazi</h2>
+              <p class="poo">A Netflix mini series brings to light Anthony Winning world war two romance <a href="">5
+                  MIN READ</a></p>
+            </div>
+            <div class="wantimg">
+              <figure>
+                <img src="assets/images/02allthelight-square320 (1).jpg" alt="all the light">
+              </figure>
+            </div>
+          </div>
+          <div class="wanted2">
+            <div class="want">
+              <h2 class="fone">Here are the most anticipated films of the holy season </h2>
+              <p class="poo">"The co;or purple" and "Poor things" and Beyonce lead a packed list <a href="">4 MIN
+                  READ</a></p>
+            </div>
+            <div class="wantimg">
+              <figure>
+                <img src="assets/images/05holiday-film-list-purple.webp" alt="film list">
+              </figure>
+            </div>
+          </div>
+          <div class="wanted2">
+            <div class="want">
+              <h2 class="fone">Netflix DVD Scoresese and Me </h2>
+              <p class="poo">For a singulr marathon pf the film makers work the disc are vital <a href="">4 MIN READ</a>
+              </p>
+            </div>
+            <div class="wantimg">
+              <figure>
+                <img src="assets/images/27NETFLIX-STATS-square320.webp" alt=" Netflix STAT">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fimain">
+      <h2>The Athletic <span class="ita">Sports Coverage</span></h2>
+      <div class="fivmain">
+        <div class="ones">
+          <div class="ones-1">
+            <div class="oneste">
+              <h2>John Calapri ws thhe king of school game basket ball one game changed everything</h2>
+              <p>Kentucky and its coach have never quite been the same since a devastating Final Four loss in 2015.</p>
+            </div>
+            <div class="onestet">
+              <h2>He Shocked the Basketball World. Then the Basketball World Tried to Save Him.</h2>
+              <p>The last time teammates heard from former N.B.A. player Delonte West, he was living outside of a
+                7-Eleven. Those who ve tried to help now “feel hopeless.”</p>
+            </div>
+          </div>
+          <div class="onesimg">
+            <figure>
+              <img src="assets/images/-kentucky-basketball.webp" alt="kentucky-basketball">
+              <figcaption>Andy Lyons Getty image </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="tee">
+          <div class="teeone">
+            <h2 class="spir">She Was Attacked With an Iron Bar. 2 Years On, Her Former Teammate Faces Jail.</h2>
+            <p class="spir">The aftershock of the assault on Kheira Hamraoui of Paris Saint-Germain has been felt far
+              and wide —
+              right to the top of Frances national team.
+            </p>
+          </div>
+          <div class="teetwo">
+            <div>
+              <h2 class="spa">How Travis Kelces Unique Style Puts Him Above N.F.L. Peers</h2>
+            </div>
+            <div class="ditee">
+              <h2 class="spa">Family of Killed Northwestern State Football Player Sues University and Coach</h2>
+            </div>
+            <div class="ditee">
+              <h2 class="spa">The Top Women in Tennis Say the Sport Is Broken. This Is Why.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sixmaiin">
+      <h2 id="bck">Well</h2>
+      <div class="sixmain">
+        <div class="onep">
+          <figure>
+            <img src="assets/images/01WORKOUTS-AFTER.webp" alt="WORKOUTS-AFTER">
+            <figcaption> Micheal Gustafson of New yORK Times </figcaption>
+            <h2 class="food">How You Should Change Your Workout Once You Hit 40<a href="">5 MIN READ</a></h2>
+          </figure>
+        </div>
+        <div class="onep">
+          <figure>
+            <img src="assets/images/WELL-RSV-SHORTAGE.webp" alt="well-rsv shortage">
+            <figcaption>Getty images </figcaption>
+            <h2 class="food">An R.S.V. Shot for Infants Is in Short Supply. Heres What to Know. <a href="">5 MIN
+                READ</a></h2>
+          </figure>
+        </div>
+        <div class="onep">
+          <figure>
+            <img src="assets/images/WELL-EG5-EXPLAINER.webp" alt="WELL-EG5-EXPLAINER">
+            <figcaption>Iivy for the new york times </figcaption>
+            <h2 class="food"> What to Know About the New Dominant Covid Variant <a href="">5 MIN READ</a></h2>
+          </figure>
+        </div>
+        <div class="onep">
+          <figure>
+            <img src="assets/images/09ASKWELL-SKIN.webp" alt="ASKWELL-SKIN">
+            <figcaption></figcaption>
+            <h2 class="food">How Do I Get Rid of Skin Tags? <a href="">5 MIN READ</a></h2>
+          </figure>
+        </div>
+        <div class="onepr">
+          <figure>
+            <img src="assets/images/26-Fall-Daylight-Savings-Advice-.webp" alt="Fall-Daylight-Savings-Advice-">
+            <figcaption>Linda Mirad </figcaption>
+            <h2 class="food">How to Fall Back Without Missing a Beat <a href="">5 MIN READ</a></h2>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="sevmain">
+      <h2>Wirecutter <span class="ita">Product recommendations</span></h2>
+      <div class="semain">
+        <div class="semainone">
+          <div class="semtext">
+            <div class="semtex">
+              <h2>Our 6 Favorite Pairs of Womens Jeans</h2>
+              <p>Our recommendations include a unanimously adored ankle-length jean, a well-priced 90s throwback, a cool
+                rigid denim high-rise and an American classic.</p>
+            </div>
+            <div class="semtextt">
+              <h2>My Posture Changed Immediately. So Did My Life.</h2>
+              <p>This laptop stand is a tiny tweak that will save your neck.</p>
+            </div>
+          </div>
+          <div class="semimage">
+            <figure>
+              <img src="assets/images/best-womens-jeans.jpg" alt="best-womens-jeans">
+              <figcaption>Marki Williams </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="teetwo">
           <div>
-            <img src="assets/images/nyt (36).jpg" alt="">
-            <h2>How Murcia Prada invented fashion</h2>
-            <p>The designer re=imagine the industry to art- and forever transform what the devil consider beautiful</p>
+            <h2 class="spa"> Floss So Good, You will Want to Eat It</h2>
+            <p>Please don't.</p>
           </div>
-          <div>
-            <div class="story">
-              <img src="assets/images/Capture.PNG" alt="">
-              <h2>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></h2>
-            </div>
-            <div class="story">
-              <img src="assets/images/Capture2.PNG" alt="">
-              <h2>A Black Hole Threw a Star Out of the Milky Way Galaxy <a href="">4 MIN READ</a></h2>
-            </div>
-            <div class="story">
-              <img src="assets/images/nyt (1).jpg" alt="">
-              <h2>A Black Hole Threw a Star Out of the Milky Way Galaxy <a href="">4 MIN READ</a></h2>
-            </div>
-            <div class="story">
-              <img src="" alt="">
-              <h2>A Black Hole Threw a Star Out of the Milky Way Galaxy <a href="">4 MIN READ</a></h2>
-            </div>
+          <div class="ditee">
+            <h2 class="spa">Are There Cheap Products That Are Better Than Their Pricey Counterparts?</h2>
+            <p>Our experts suggest these more-affordable products</p>
+          </div>
+          <div class="ditee">
+            <h2 class="spa">The Top Women in Tennis Say the Sport Is Broken. This Is Why.</h2>
           </div>
         </div>
-
-      </section>
-      <section>
-        <div class="related-stories">
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+      </div>
+    </section>
+    <section class="eimain">
+      <h2>Games <span class="ita">Daily Puzzle</span></h2>
+      <div class="eimaintex">
+        <div class="eimaintexx">
+          <div class="eimaintexe">
+            <h2>Wordle</h2>
+            <p> Guess the 5-letter word with 6 chances</p>
           </div>
-          <div class="story">
+          <div class="eimaintexxi">
             <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
+              <img src="assets/images/alpha-wordle-icon.webp" alt="Alpha wordle icon">
             </figure>
           </div>
         </div>
-      </section>
-      <section>
-        <div class="related-stories">
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+        <div class="eimaintexx4">
+          <div class="eimaintexe">
+            <h2>Connections Companion</h2>
+            <p>In case you need some puzzle help.</p>
           </div>
-          <div class="story">
+          <div class="eimaintexxi">
             <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
+              <img src="assets/images/connections-column.webp" alt="connections-column">
             </figure>
           </div>
         </div>
-      </section>
-      <section>
-        <div>
-          <div class="related-stories">
-            <div class="story">
-              <figure>
-                <img src="" alt="">
-                <figcaption>World news </figcaption>
-                <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-              </figure>
-            </div>
-            <div class="story">
-              <figure>
-                <img src="" alt="">
-                <figcaption>World news </figcaption>
-                <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-              </figure>
-            </div>
-            <div class="story">
-              <figure>
-                <img src="" alt="">
-                <figcaption>World news </figcaption>
-                <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-              </figure>
-            </div>
-            <div class="story">
-              <figure>
-                <img src="" alt="">
-                <figcaption>World news </figcaption>
-                <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-              </figure>
-            </div>
-            <div class="story">
-              <figure>
-                <img src="" alt="">
-                <figcaption>World news </figcaption>
-                <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-              </figure>
-            </div>
+        <div class="eimaintexx4">
+          <div class="eimaintexe">
+            <h2>Connections</h2>
+            <p>Group words that share a common thread.</p>
           </div>
-        </div>
-        <div class="related-stories">
-          <div class="story">
+          <div class="eimaintexxi">
             <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
+              <img src="assets/images/alpha-connections-icon.webp" alt="alpha-connections-icon">
             </figure>
           </div>
         </div>
-        <div class="related-stories">
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+      </div>
+      <div class="eimaintexs">
+        <div class="eimaintexx">
+          <div class="eimaintexe3">
+            <h2>Spelling</h2>
+            <p> Subscribers can now play puzzles from previous days.</p>
           </div>
-          <div class="story">
+          <div class="eimaintexxi3">
             <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
+              <img src="assets/images/spelling-bee-logo.webp" alt="spelling-bee-logo">
             </figure>
           </div>
         </div>
-        <div class="related-stories">
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+        <div class="eimaintexx4">
+          <div class="eimaintexe4">
+            <h2>The crossword</h2>
+            <p>Get clued in with wordplay</p>
           </div>
-          <div class="story">
+          <div class="eimaintexxi4">
             <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
+              <img src="assets/images/crossword-logo.webp" alt="crossword-logo">
             </figure>
           </div>
         </div>
-        <div class="related-stories">
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+        <div class="eimaintexx4">
+          <div class="eimaintexe4">
+            <h2>Letters boxed</h2>
+            <p>Create words using letters aroun.</p>
           </div>
-          <div class="story">
+          <div class="eimaintexxi5">
             <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
-          </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
+              <img src="assets/images/alpha-letterboxed-promo.webp" alt="alpha-letterboxed-promo">
             </figure>
           </div>
         </div>
-        <div class="related-stories">
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+      </div>
+    </section>
+    <section class="everything-article">
+      <section class="opinion">
+        <h2>News</h2>
+        <div class="article">
+          <div class="articles">
+            <h2>World News</h2>
+            <img src="assets/images/israel-hamas.webp" alt="israel-hamas">
+            <p>Israeli airstrikes on Gaza City on Sunday.
+              Israel-Hamas War: Israel Says It Has Isolated Gaza City After 'Large' Attack
+              Five Wounded as Russian Missiles Strike Odesa, Damaging an Art Museum
+              As Gaza Hospitals Collapse, Medical Workers Face the Hardest Choices</p>
           </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+          <div class="articles">
+            <h2>US news</h2>
+            <img src="assets/images/nytpoll-swiper-dem-primary.webp" alt="nytpoll-swiper-dem-primary">
+            <p>Virtually all of the ambitious Democrats whose names who have surfaced as possible Biden alternatives
+              have
+              thrown their political support behind the president.
+              Could a Prominent Democrat Really Challenge Biden? It's Unlikely, at This Point.
+              Father Whose Son Is Accused of Parade Shooting Pleads Guilty to Misdemeanors
+              The Times/Siena Poll Isn't the Only One Indicating an Unhappy Electorate</p>
           </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+          <div class="articles">
+            <h2>Political News</h2>
+            <img src="assets/images/02trump-tria.webp" alt="trumps trial">
+            <p>The scene in court on Monday before former President Donald J. Trump began testifying.
+              Inside the Courtroom at Trump's Fraud Trial
+              Could a Prominent Democrat Really Challenge Biden? It's Unlikely, at This Point.
+              The Times/Siena Poll Isn't the Only One Indicating an Unhappy Electorate</p>
           </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+          <div class="articles">
+            <h2>New York</h2>
+            <img src="assets/images/adams-suggs.webp" alt="adams-suggs">
+            <p>Federal agents raided Brianna Suggs's home as part of a corruption investigation into illegal foreign
+              donations to the campaign.
+              Mayor's 25-Year-Old Fund-Raising Chief in Spotlight After F.B.I. Raid
+              Trump Civil Fraud Trial: Trump Assails Judge and Acknowledges Role Valuing His Empire’s Property
+              Inside the Private World the Richest New Yorkers Built for Themselves
+              Business</p>
           </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+          <div class="articles">
+            <h2>Business</h2>
+            <img src="assets/images/commutin.webp" alt="commutin">
+            <p>Most Americans still have to commute every day. Here's how that experience has changed.
+              Chatbots May 'Hallucinate' More Often Than Many Realize
+              More Semiconductors, Less Housing: Chinas New Economic Plan</p>
           </div>
-        </div>
-        <div class="related-stories">
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+          <div class="articles">
+            <h2>Technology</h2>
+            <img src="assets/images/ai-hallucination.jpg" alt="">
+            <p>Amr Awadallah, the chief executive of Vectara, warns that its chatbot software doesn’t always tell the
+              truth.
+              Chatbots May 'Hallucinate; More Often Than Many Realize
+              Tech Start-Ups Try to Sell a Cautious Pentagon on A.I.
+              Another Google Antitrust Battle Reaches Court in Epic Games Case</p>
           </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+          <div class="articles">
+            <h2>Science</h2>
+            <img src="assets/images/SCI-SUDOKU.webp" alt="SCI-SUDOKU">
+            <p>Tantan Dai of China, front left, on the second day of the World Sudoku Championship in Toronto.
+              What it Takes to Wear the Sudoku Crown
+              A Giant Leap for the Leap Second. Is Humankind Ready?
+              NASA's Lucy Mission Set Its Sights on 1 Asteroid. It Found 2.</p>
           </div>
-          <div class="story">
-            <figure>
-              <img src="" alt="">
-              <figcaption>World news </figcaption>
-              <p>The tissue that connects our bodies may be key to better health <a href="">5 MIN READ</a></p>
-            </figure>
+          <div class="articles">
+            <h2>Sport</h2>
+            <p>The Biggest N.F.L. Surprises at the Midseason Mark
+              He Was Traded to Minnesota on Tuesday. Five Days Later, He Became a Hero.
+              After Her Brother's Tragic Death, Notre Dame's Basketball Coach Finds Peace
+              Obituaries</p>
+          </div>
+          <div class="articles">
+            <h2>Obituaries</h2>
+            <img src="assets/images/macal.webp" alt="macal">
+            <p>Zdenek Macal in 2010. His sound, rounded and warm, was ideally suited to the 19th-century repertoire with
+              which he was most closely associated.
+              Zdenek Macal, Conductor With an International Reach, Dies at 87
+              Walter Davis, Basketball Star With a Velvet Touch, Dies at 69
+              Robbin Bain, Pageant Winner and 'Today Girl,'' Is Dead at 87
+            </p>
+          </div>
+          <div class="articles">
+            <h2>The Upshot</h2>
+            <img src="assets/images/neighborhoods-grid.webp" alt="neighborhoods-grid">
+            <p>How 7,500 More Reader Drawings Changed Our New York City Maps
+              Why Biden Is Behind, and How He Could Come Back
+              Cross-Tabs: October 2023 Times/Siena Poll of the 2024 Battlegrounds</p>
           </div>
         </div>
       </section>
+      <section class="opinion">
+        <h2>Opinion</h2>
+        <div class="article">
+          <div class="articles">
+            <h2>Opinion</h2>
+            <img src="assets/images/pol-poll.webp" alt="israel-hamas">
+            <p>Poll results show President Biden losing to Donald J. Trump by margins of four to 10 percentage points in
+              key battleground states.
+              With Poll Results Favoring Trump, Should Biden Step Aside?
+              Trump May Not Need a Coup This Time
+              Matthew Perry Told the Truth About Everything</p>
+          </div>
+          <div class="articles">
+            <h2>Opinion Columnist</h2>
+            <img src="assets/images/conversation.jpg" alt="nytpoll-swiper-dem-primary">
+            <p>Virtually all of the ambitious Democrats whose names who have surfaced as possible Biden alternatives
+              have
+              thrown their political support behind the president.
+              Could a Prominent Democrat Really Challenge Biden? It's Unlikely, at This Point.
+              Father Whose Son Is Accused of Parade Shooting Pleads Guilty to Misdemeanors
+              The Times/Siena Poll Isn't the Only One Indicating an Unhappy Electorate</p>
+          </div>
+          <div class="articles">
+            <h2>Editorial</h2>
+            <img src="assets/images/04china.webp" alt="china">
+            <p>Nuclear Talks With China Are Essential and Long Overdue
+              A Humanitarian Pause in Gaza
+              New York City Deserves Better Than Mayor Adams's Scandals</p>
+          </div>
+          <div class="articles">
+            <h2>Guest Essays</h2>
+            <img src="assets/images/06Havrilesky.webp" alt="06Havrilesky">
+            <p>Matthew Perry Told the Truth About Everything
+              What I Read to My Son When the World Is on Fire
+              Republicans Have Chosen Nihilism</p>
+          </div>
+          <div class="articles">
+            <h2>Sunday Opinion</h2>
+            <img src="assets/images/arax.webp" alt="arax">
+            <p>Skyway, the main road leading in and out of Paradise. The thinned tree canopy allows those along the road
+              to see across the canyon on the way to Magalia, a town where 3,000 structures were destroyed by the
+              wildfire.
+              What Happened When California Chose to Rebuild a Town Devastated by Wildfire
+              Why Liberal Academia Needs Republican Friends
+              When It Comes to Israel, Who Decides What You Can and Can not Say?</p>
+          </div>
+        </div>
+      </section>
+      <section class="opinion">
+        <h2>Arts</h2>
+        <div class="article">
+          <div class="articles">
+            <h2>Arts</h2>
+            <img src="assets/images/pol-poll.webp" alt="israel-hamas">
+            <p>Kristin Draucker and other Paul Taylor Dance Company performers in Ulysses Dove's “Vespers,” which had
+              its
+              company debut on Saturday.
+              At Paul Taylor, a Drum Circle and a Fierce Sisterhood
+              Poland's Art World Awaits a Culture War Counteroffensive
+              Boy George Will Join 'Moulin Rouge!'' on Broadway in 2024</p>
+          </div>
+          <div class="articles">
+            <h2>Arts and Design</h2>
+            <img src="assets/images/conversation.jpg" alt="nytpoll-swiper-dem-primary">
+            <p>Opening night visitors survey a section of the 2023 Kyiv Biennial in Vienna. As well as in its hometown,
+              the contemporary art show is taking place in two more Ukrainian cities, two in Poland, and in Berlin and
+              Antwerp.
+              Kyiv's Exiled Biennial Is the Most Energizing Exhibition of the Year
+              Performa Keeps It Live and Real in the Age of TikTok
+              Will the Art Market Need to Discount Its Masterpieces?</p>
+          </div>
+          <div class="articles">
+            <h2>Movies</h2>
+            <img src="assets/images/04china.webp" alt="china">
+            <p>Cage knows what it's like to go viral. When a supercut of his freakout scenes was posted online, he
+              recalled thinking, “This isn't what I had in mind when I decided to become a film actor.”
+              With 'Dream Scenario,'' Nicolas Cage Reclaims the Memes
+              Netflix DVDs, Scorsese and Me
+              'Nyad' Review: Neptune's (Estranged) Daughter</p>
+          </div>
+          <div class="articles">
+            <h2>Television</h2>
+            <img src="assets/images/06Havrilesky.webp" alt="06Havrilesky">
+            <p>Bass Reeves, played by David Oyelowo in the new Paramount+ series, was a Black lawman living by his rifle
+              and his wits
+              during Reconstruction.
+              In 'Lawmen: Bass Reeves,'' Fiction Fills In Where Tall Tales Leave Off
+              'For All Mankind' Launches a Mission to Mars, With New Wrinkles
+              'Attack on Titan' Ends How Its Creator Always Envisioned</p>
+          </div>
+          <div class="articles">
+            <h2>Music</h2>
+            <img src="assets/images/arax.webp" alt="arax">
+            <p>From left, the Kronos Quartet at Carnegie Hall: David Harrington and John Sherba, violins; Hank Dutt,
+              viola; and Paul
+              Wiancko, cello.
+              At 50, the Kronos Quartet Is Still Playing for the Future
+              Taylor Swift's Blockbuster '1989' Rerecording Tops Sales of Original
+              Review: Anthony Davis's Malcolm X Opera Finally Arrives at the Met</p>
+          </div>
+          <div class="articles">
+            <h2>Theater</h2>
+            <img src="assets/images/04china.webp" alt="china">
+            <p>The “Spamalot” revival's cast includes, from left, Jimmy Smagula, Taran Killam, Nik Walker and Michael
+              Urie. “There is an intelligence about their absurdity,” Killam, who plays Lancelot, said of Monty Python.
+              It Is Not Dead Yet! 'Spamalot' Returns to Broadway. (Cue the Coconuts.)
+              In 'Food,'' Geoff Sobelle Explores the Extremes of Eating
+              Poland's Art World Awaits a Culture War Counteroffensive</p>
+          </div>
+          <div class="articles">
+            <h2>Dance</h2>
+            <img src="assets/images/06Havrilesky.webp" alt="06Havrilesky">
+            <p>Shawn Lesniak and Alex Clayton of the Paul Taylor Dance Company in the premiere of Lauren Lovette's
+              “Echo.”
+              At Paul Taylor, the Music Calls for a Dance. The Men Respond.
+              Review: In 'Köln Concert, Dancing Like Everyone's Watching
+              Joey Evans Is Back. This Time He's a Struggling Artist.</p>
+          </div>
+          <div class="articles">
+            <h2>Book Review</h2>
+            <img src="assets/images/arax.webp" alt="arax">
+            <p>Can the Parole Process Make Prison Sentences More Just?
+              For Stephanie Land, College Was the School of Hard Knocks
+              The Hard-Partying College Kids Who Were Also Drug Lords</p>
+          </div>
+        </div>
+      </section>
+      <section class="opinion">
+        <h2>Lifestyle</h2>
+        <div class="article">
+          <div class="articles">
+            <h2>Style</h2>
+            <img src="assets/images/pol-poll.webp" alt="israel-hamas">
+            <p>Vapes Look 'Like Toys Now. Uh-Oh.
+              Why Donnot Womens Clothes Have More Pockets?
+              Forget Aerodynamics: Running the Marathon in Style</p>
+          </div>
+          <div class="articles">
+            <h2>Food</h2>
+            <img src="assets/images/conversation.jpg" alt="nytpoll-swiper-dem-primary">
+            <p>For Chinese speakers, food-delivery apps in their native language are a gateway to restaurants like
+              Maxis
+              Noodles in Flushing, Queens.
+              Food Apps Catering to Chinese Speakers Deliver a Piece of Home
+              How Chefs Eat With the Marathon in Mind
+              A Fast, Foolproof Carbonara for Orzo Lovers</p>
+          </div>
+          <div class="articles">
+            <h2>Well</h2>
+            <img src="assets/images/04china.webp" alt="china">
+            <p>Some Covid Vaccines Are Still Hard to Find
+              What to Know About Seasonal Depression
+              How to Fall Back Without Missing a Beat
+              The New York Times Magazine</p>
+          </div>
+          <div class="articles">
+            <h2>The New York Time</h2>
+            <img src="assets/images/06Havrilesky.webp" alt="06Havrilesky">
+            <p>A Beginners Guide to Looking at the Universe
+              Befouling the Final Frontier
+              Bariatric Surgery at 16</p>
+          </div>
+          <div class="articles">
+            <h2>T Magazine</h2>
+            <img src="assets/images/arax.webp" alt="arax">
+            <p>Marcel Dzama at his Brooklyn studio, wearing a papier-mâché mask of a bull that he made in 2013 based
+              on
+              a painting by the Dadaist artist Francis Picabia.
+              The Man Behind 250 Masks
+              This Seasons Most Striking Sculptural Bags
+              In the Catskills, Seasonal Farmhouse Dinners With House-Made Beer</p>
+          </div>
+          <div class="articles">
+            <h2>Travel</h2>
+            <img src="assets/images/04china.webp" alt="china">
+            <p>The “Spamalot” revival's cast includes, from left, Jimmy Smagula, Taran Killam, Nik Walker and Michael
+              Urie. “There is an intelligence about their absurdity,” Killam, who plays Lancelot, said of Monty Python.
+              It Is Not Dead Yet! 'Spamalot' Returns to Broadway. (Cue the Coconuts.)
+              In 'Food,'' Geoff Sobelle Explores the Extremes of Eating
+              Poland's Art World Awaits a Culture War Counteroffensive</p>
+          </div>
+          <div class="articles">
+            <h2>Love</h2>
+            <img src="assets/images/06Havrilesky.webp" alt="06Havrilesky">
+            <p>Shawn Lesniak and Alex Clayton of the Paul Taylor Dance Company in the premiere of Lauren Lovette's
+              “Echo.”
+              At Paul Taylor, the Music Calls for a Dance. The Men Respond.
+              Review: In 'Köln Concert, Dancing Like Everyone's Watching
+              Joey Evans Is Back. This Time He's a Struggling Artist.</p>
+          </div>
+          <div class="articles">
+            <h2>Real Estate</h2>
+            <img src="assets/images/arax.webp" alt="arax">
+            <p>Can the Parole Process Make Prison Sentences More Just?
+              For Stephanie Land, College Was the School of Hard Knocks
+              The Hard-Partying College Kids Who Were Also Drug Lords</p>
+          </div>
+        </div>
+      </section>
+    </section>
   </main>
-  <footer class="footer">
-    <h1 class="logo">
-      The New York Times<span id="home">Go to homepage >></span>
-    </h1>
-    <div class="li">
+  <footer class="main-footer">
+    <div class="foot">
+      <h1 class="title"> The New York Times</h1>
+    </div>
+    <div class="footer">
+      <div class="footer-one">
+        <ul>
+          <li class="list">
+            News
+            <ul>
+              <li>Home Page</li>
+              <li>World</li>
+              <li>U.S.</li>
+              <li>Politics</li>
+              <li>Election </li>
+              <li>New York</li>
+              <li>Business</li>
+              <li>Tech</li>
+              <li>Science</li>
+              <li>Sports</li>
+              <li>Obituaries</li>
+              <li>Today's Paper</li>
+              <li>Corrections</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="list">
+            Opinion
+            <ul>
+              <li>Today's Opinion</li>
+              <li>Op-Ed Columnists</li>
+              <li>Editorials</li>
+              <li>Op-Ed Contiributors</li>
+              <li>Letters</li>
+              <li>Sunday Review</li>
+              <li>Video: Opinion</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="list">
+            Arts
+            <ul>
+              <li>Today's Arts</li>
+              <li>Art and Design</li>
+              <li>Books</li>
+              <li>Dance</li>
+              <li>Movies</li>
+              <li>Music</li>
+              <li>Pop Culture</li>
+              <li>Television</li>
+              <li>Theater</li>
+              <li>Video Arts</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="list">
+            Living
+            <ul>
+              <li>Automobiles</li>
+              <li>Cooking</li>
+              <li>Crossword</li>
+              <li>Education</li>
+              <li>Food</li>
+              <li>Health</li>
+              <li>Jobs</li>
+              <li>Magazine</li>
+              <li>Parenting</li>
+              <li>Real Estate</li>
+              <li>Style</li>
+              <li>T Magazine</li>
+              <li>Travel</li>
+              <li>Love</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="list">
+            More
+            <ul>
+              <li>Reader Center</li>
+              <li>Wirecutter</li>
+              <li>Live Events</li>
+              <li>The Learning Network</li>
+              <li>Tools and Services</li>
+              <li>N.Y.C. Events Guide</li>
+              <li>Multimedia</li>
+              <li>Photography</li>
+              <li>Video</li>
+              <li>Newsletters</li>
+              <li>NYT Store</li>
+              <li>Times Journeys</li>
+              <li>Manage My Account</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="lisu">
+          <li class="subscribe">
+            Subscribe
+            <ul>
+              <li> Home Delivery</li>
+              <li> Digital Subscriptions</li>
+              <li> Cooking</li>
+              <li>Email Newsletters</li>
+              <li>Corporate Subscriptions</li>
+              <li>Education Rate</li>
+              <li>Mobile Applications</li>
+              <li>Replica Edition</li>
+              <li>Español</li>
+              <li>中文网</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="second-footer">
       <ul>
-        <li class="list">
-          News
-          <ul>
-            <li>Home Page</li>
-            <li>World</li>
-            <li>U.S.</li>
-            <li>Politics</li>
-            <li>Election 2020</li>
-            <li>New York</li>
-            <li>Business</li>
-            <li>Tech</li>
-            <li>Science</li>
-            <li>Sports</li>
-            <li>Obituaries</li>
-            <li>Today's Paper</li>
-            <li>Corrections</li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li class="list">
-          Opinion
-          <ul>
-            <li>Today's Opinion</li>
-            <li>Op-Ed Columnists</li>
-            <li>Editorials</li>
-            <li>Op-Ed Contiributors</li>
-            <li>Letters</li>
-            <li>Sunday Review</li>
-            <li>Video: Opinion</li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li class="list">
-          Arts
-          <ul>
-            <li>Today's Arts</li>
-            <li>Art & Design</li>
-            <li>Books</li>
-            <li>Dance</li>
-            <li>Movies</li>
-            <li>Music</li>
-            <li>Pop Culture</li>
-            <li>Television</li>
-            <li>Theater</li>
-            <li>Video Arts</li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li class="list">
-          Living
-          <ul>
-            <li>Automobiles</li>
-            <li>Cooking</li>
-            <li>Crossword</li>
-            <li>Education</li>
-            <li>Food</li>
-            <li>Health</li>
-            <li>Jobs</li>
-            <li>Magazine</li>
-            <li>Parenting</li>
-            <li>Real Estate</li>
-            <li>Style</li>
-            <li>T Magazine</li>
-            <li>Travel</li>
-            <li>Love</li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li class="list">
-          Listings & More
-          <ul>
-            <li>Reader Center</li>
-            <li>Wirecutter</li>
-            <li>Live Events</li>
-            <li>The Learning Network</li>
-            <li>Tools & Services</li>
-            <li>N.Y.C. Events Guide</li>
-            <li>Multimedia</li>
-            <li>Photography</li>
-            <li>Video</li>
-            <li>Newsletters</li>
-            <li>NYT Store</li>
-            <li>Times Journeys</li>
-            <li>Manage My Account</li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="subscribe">
-        <li class="has-sub">
-          Subscribe
-          <ul>
-            <li>
-              <svg class="css-r5ic95" viewBox="0 0 14 13" fill="#000">
-                <path
-                  d="M13.1,11.7H3.5V1.2h9.6V11.7zM13.1,0.4H3.5C3,0.4,2.6,0.8,2.6,1.2v2.2H0.9C0.4,3.4,0,3.8,0,4.3v5.2v1.5c0,0.8,0.8,1.5,1.8,1.5h1.7h0h7.4h2.2c0.5,0,0.9-0.4,0.9-0.9V1.2C14,0.8,13.6,0.4,13.1,0.4">
-                </path>
-                <polygon points="10.9,3 5.2,3 5.2,3.9 11.4,3.9 11.4,3"></polygon>
-                <rect x="5.2" y="4.7" width="6.1" height="0.9"></rect>
-                <rect x="5.2" y="6.5" width="6.1" height="0.9"></rect>
-              </svg>
-              Home Delivery
-            </li>
-            <li>
-              <svg class="css-r5ic95" viewBox="0 0 10 13">
-                <path fill="#000"
-                  d="M9.9,8c-0.4,1.1-1.2,1.9-2.3,2.4V8l1.3-1.2L7.6,5.7V4c1.2-0.1,2-1,2-2c0-1.4-1.3-1.9-2.1-1.9c-0.2,0-0.3,0-0.6,0.1v0.1c0.1,0,0.2,0,0.3,0c0.5,0,0.9,0.2,0.9,0.7c0,0.4-0.3,0.7-0.8,0.7C6,1.7,4.5,0.6,2.8,0.6c-1.5,0-2.5,1.1-2.5,2.2C0.3,4,1,4.3,1.6,4.6l0-0.1C1.4,4.4,1.3,4.1,1.3,3.8c0-0.5,0.5-0.9,1-0.9C3.7,2.9,6,4,7.4,4h0.1v1.7L6.2,6.8L7.5,8v2.4c-0.5,0.2-1.1,0.3-1.7,0.3c-2.2,0-3.6-1.3-3.6-3.5c0-0.5,0.1-1,0.2-1.5l1.1-0.5V10l2.2-1v-5L2.5,5.5c0.3-1,1-1.7,1.8-2l0,0C2.2,3.9,0.1,5.6,0.1,8c0,2.9,2.4,4.8,5.2,4.8C8.2,12.9,9.9,10.9,9.9,8L9.9,8z">
-                </path>
-              </svg>
-              Digital Subscriptions
-            </li>
-            <li>
-              <svg class="css-r5ic95" viewBox="0 0 13 13" fill="#000">
-                <polygon points="0,-93.6 0,-86.9 6.6,-93.6"></polygon>
-                <polygon points="0.9,-86 7.5,-86 7.5,-92.6"></polygon>
-                <polygon points="0,-98 0,-94.8 8.8,-94.8 8.8,-86 12,-86 12,-98"></polygon>
-                <path
-                  d="M11.9-40c-0.4,1.1-1.2,1.9-2.3,2.4V-40l1.3-1.2l-1.3-1.2V-44c1.2-0.1,2-1,2-2c0-1.4-1.3-1.9-2.1-1.9c-0.2,0-0.3,0-0.6,0.1v0.1c0.1,0,0.2,0,0.3,0c0.5,0,0.9,0.2,0.9,0.7c0,0.4-0.3,0.7-0.8,0.7c-1.3,0-2.8-1.1-4.5-1.1c-1.5,0-2.5,1.1-2.5,2.2c0,1.1,0.6,1.5,1.3,1.7l0-0.1c-0.2-0.1-0.4-0.4-0.4-0.7c0-0.5,0.5-0.9,1-0.9C5.7-45.1,8-44,9.4-44h0.1v1.7l-1.3,1.1L9.5-40v2.4c-0.5,0.2-1.1,0.3-1.7,0.3c-2.2,0-3.6-1.3-3.6-3.5c0-0.5,0.1-1,0.2-1.5l1.1-0.5v4.9l2.2-1v-5l-3.3,1.5c0.3-1,1-1.7,1.8-2l0,0c-2.2,0.5-4.3,2.1-4.3,4.6c0,2.9,2.4,4.8,5.2,4.8C10.2-35.1,11.9-37.1,11.9-40L11.9-40z">
-                </path>
-                <path
-                  d="M12.2-23.7c-0.2,0-0.4,0.2-0.4,0.4v0.4L0.4-19.1v2.3l3,1l-0.2,0.6c-0.3,0.8,0.1,1.8,0.9,2.1l1.7,0.7c0.2,0.1,0.4,0.1,0.6,0.1c0.6,0,1.3-0.4,1.5-1l0.4-0.9l3.5,1.2v0.4c0,0.2,0.2,0.4,0.4,0.4c0.2,0,0.4-0.2,0.4-0.4v-10.7C12.6-23.5,12.4-23.7,12.2-23.7M7.1-13.6c-0.2,0.4-0.6,0.6-1,0.4l-1.7-0.7c-0.4-0.2-0.6-0.6-0.4-1l0.3-0.7l3.3,1.1L7.1-13.6z">
-                </path>
-                <path
-                  d="M13.1-60.3H3.5v-10.5h9.6V-60.3zM13.1-71.6H3.5c-0.5,0-0.9,0.4-0.9,0.9v2.2H0.9c-0.5,0-0.9,0.4-0.9,0.9v5.2v1.5c0,0.8,0.8,1.5,1.8,1.5h1.7h0h7.4h2.2c0.5,0,0.9-0.4,0.9-0.9v-10.5C14-71.2,13.6-71.6,13.1-71.6">
-                </path>
-                <polygon points="10.9,-69 5.2,-69 5.2,-68.1 11.4,-68.1 11.4,-69"></polygon>
-                <rect x="5.2" y="-67.3" width="6.1" height="0.9"></rect>
-                <rect x="5.2" y="-65.5" width="6.1" height="0.9"></rect>
-                <path
-                  d="M12,6.5H6.5V12H1V6.5h5.5V1H12V6.5zM12,0H1C0.4,0,0,0.5,0,1v11c0,0.6,0.4,1,1,1h11c0.5,0,1-0.4,1-1V1C13,0.5,12.5,0,12,0">
-                </path>
-              </svg>
-              Crossword
-            </li>
-            <li>
-              <svg class="css-r5ic95" viewBox="0 0 13 13" fill="#000">
-                <path
-                  d="M12,2.9L9.6,5.2c-0.1,0.1-0.3,0.1-0.4,0C9.1,5.2,9.1,5,9.3,4.9l2.4-2.4c-0.2-0.2-0.3-0.3-0.5-0.5L8.7,4.3c-0.1,0.1-0.3,0.1-0.4,0C8.2,4.3,8.2,4.1,8.4,4l2.4-2.4c-0.3-0.3-0.5-0.5-0.5-0.5L7.6,3.4C7.1,4,6.8,5.1,7.1,5.8c-1.4,1-4.6,3.5-5.1,4c-0.8,0.8-0.4,1.8-0.3,1.9c0,0,0,0,0,0c0,0,0,0,0,0c0.1,0.1,1.1,0.5,1.9-0.3c0.4-0.4,2.9-3.6,3.9-5C8.4,6.9,9.6,6.6,10.2,6l2.3-2.6C12.5,3.4,12.3,3.2,12,2.9z">
-                </path>
-                <path
-                  d="M0.8,1.9l0.3-0.3c0.9-0.9,3.2,1.1,3.8,1.7s0.9,1.8,0.4,2.6c1.4,1.1,4.6,3.5,5,3.9c0.8,0.8,0.4,1.8,0.3,1.9c0,0,0,0,0,0c0,0,0,0,0,0c-0.1,0.1-1.1,0.5-1.9-0.3c-0.4-0.4-2.9-3.7-4-5.1C3.9,6.7,2.9,6.4,2.3,5.8S-0.2,2.9,0.8,1.9z">
-                </path>
-              </svg>
-              Cooking
-            </li>
-            <li>Email Newsletters</li>
-            <li>Corporate Subscriptions</li>
-            <li>Education Rate</li>
-            <li>Mobile Applications</li>
-            <li>Replica Edition</li>
-            <li>Español</li>
-            <li>中文网</li>
-          </ul>
-        </li>
+        <li>© The New York Times Company</li>
+        <li>NYTco</li>
+        <li>Contact Us</li>
+        <li>Accesibility</li>
+        <li>Work with us</li>
+        <li>Advertise</li>
+        <li>T Brand Studio</li>
+        <li>Your Ad Choices</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+        <li>Terms of Sale</li>
+        <li>Site Map</li>
+        <li>Help</li>
+        <li>Subscriptions</li>
       </ul>
     </div>
   </footer>
-
-  <footer class="second-footer">
-    <ul>
-      <li>© The New York Time Company</li>
-      <li>Contact Us</li>
-      <li>Work with us</li>
-      <li>Advertise</li>
-      <li>T Brand Studio</li>
-      <li>Your Ad Choices</li>
-      <li>Privacy</li>
-      <li>Terms of Service</li>
-      <li>Terms of Sale</li>
-      <li>Site Map</li>
-      <li>Help</li>
-      <li>Subscriptions</li>
-    </ul>
-  </footer>
-  </div>
 </body>
 
 </html>

@@ -1,0 +1,273 @@
+.liv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: solid;
+  border-top: 0.1rem solid #000;
+  border-bottom: 0.1rem solid #d3d3d3;
+  margin-top: 0.1em;
+}
+
+#live-indicator {
+  color: #990f2b;
+}
+
+#hrs {
+  padding-left: 1rem;
+  color: #808080;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0.2rem;
+}
+
+#an {
+  font-size: 0.7rem;
+  margin: 0.1rem;
+  color: #808080;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #000;
+  margin-bottom: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2c2c;
+  font-size: 0.6rem;
+  margin: 0.1rem;
+}
+
+.main-one {
+  display: grid;
+  grid-template-columns: 70% auto;
+  grid-template-rows: 100%;
+  height: 345vh;
+  /* background-color: blue; */
+}
+
+.divone {
+  margin: 1rem;
+}
+
+.bot-sec {
+  display: grid;
+  grid-template-columns: 47% auto auto;
+  width: 100%;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.bot-sec-inner {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 96vw;
+  max-width: 250px;
+  gap: 0.3rem;
+}
+
+.bot-sec-text {
+  margin: 0.5rem;
+}
+
+.bot-sec-inner img {
+  width: 100%;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 0.3rem;
+}
+
+.sep-sec {
+  width: 1px;
+  height: 89%;
+  color: #808080;
+  background-color: #808080;
+  border: none;
+}
+
+.divone1 {
+  display: grid;
+  grid-template-columns: 30% auto;
+  height: 70vh;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.divone11 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 20vw;
+  height: 65vh;
+  margin: 0.5rem;
+}
+
+.divone11-one {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.divone11-two {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.divone11-img figure img {
+  height: 60vh;
+  margin: 2rem;
+}
+
+.listh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.1rem;
+  margin: 0.3rem;
+}
+
+.divone2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 50vh;
+  margin: 0.3rem;
+  border-bottom: 1px solid #808080;
+}
+
+.divone2-one {
+  display: grid;
+  grid-template-columns: 47% 5% auto;
+  height: 20vh;
+  width: 100%;
+  gap: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #808080;
+}
+
+.divone2-one11 {
+  margin: 0.2rem;
+}
+
+.divone2-one12 {
+  margin: 0.2rem;
+}
+
+.divone3 {
+  display: grid;
+  grid-template-columns: 40% auto;
+  height: 50vh;
+}
+
+.divone3-1 {
+  margin: 0.7rem;
+}
+
+.divone3-img {
+  width: 30vw;
+  height: 35vh;
+}
+
+.divone3-img figure img {
+  height: 46vh;
+  margin: 1rem;
+  border-radius: 0.1rem;
+}
+
+.divone4 {
+  display: grid;
+  grid-template-columns: 40% auto;
+  height: 50vh;
+  border-top: 1px solid #808080;
+  margin: 0.5rem;
+  padding: 0.2rem;
+}
+
+.divone4-1 {
+  margin: 0.7rem;
+}
+
+.divtwo {
+  /* background-color: #990f2b; */
+  border-left: 1px solid #808080;
+  /* padding: 1rem; */
+  width: 100vw;
+}
+
+.divtwo1 {
+  display: grid;
+  grid-template-rows: auto auto;
+  height: 45vh;
+  margin: 1rem;
+}
+
+.divtwo1-img {
+  margin: 0.5rem;
+  border-radius: 2rem;
+}
+
+.divtwo1-img figure img {
+  width: 25vw;
+  height: 27vh;
+}
+
+.divtwo2 {
+  border-top: 1px solid #808080;
+  display: grid;
+  grid-template-columns: 60% auto;
+  height: 18vh;
+}
+
+.divtwo2-img figure img {
+  width: 4vw;
+  height: 6vh;
+  border-radius: 0.8rem;
+  margin: 1rem;
+}
+
+.divtwo3 {
+  border-top: 1px solid #808080;
+  display: grid;
+  grid-template-columns: 60% auto;
+  height: 19vh;
+}
+
+.divtwo3-one {
+  margin: 0.5rem;
+}
+
+.divtwo3-one h2 {
+  font-size: 15px;
+}
+
+.divtwo6 {
+  border-top: 1px solid #808080;
+  display: grid;
+  grid-template-rows: auto auto;
+  height: 45vh;
+  margin: 0.1rem;
+  background-color: aqua;
+}
+
+.divtwo6-img {
+  margin: 1.5rem;
+  border-radius: 1rem;
+}
+
+.divtwo6-img figure img {
+  width: 25vw;
+  height: 27vh;
+}
+
+.divtwo8 {
+  border-top: 1px solid #808080;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.divtwo8-one {
+  margin: 0.5rem;
+  border-left: 1px solid #808080;
+  padding: 0.3rem;
+}

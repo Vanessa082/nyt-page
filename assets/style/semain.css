@@ -1,0 +1,40 @@
+.semain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+  /* background-color: blue; */
+}
+
+.semain-one {
+  border-right: 1px solid #d3d3d3;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.semain-one1 {
+  margin: 1rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.semain-onee {
+  margin: 1rem;
+  border-top: 1px solid #d3d3d3;
+}
+
+.semain-one2 {
+  margin: 1rem;
+}
+
+.semain-one-img figure img {
+  height: 320px;
+  margin: 1rem;
+}
+
+.semain-two {
+  border-left: 1px solid #d3d3d3;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
